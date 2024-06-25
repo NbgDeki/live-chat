@@ -12,10 +12,10 @@ const firebaseConfig = {
 };
 
 // init firebase
-firebase.initializeApp(firebase);
+firebase.initializeApp(firebaseConfig);
 
 const projectAuth = firebase.auth();
 const projectFirestore = firebase.firestore();
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
-export { projectFirestore, projectAuth, timestamp };
+export { projectAuth, projectFirestore, timestamp };

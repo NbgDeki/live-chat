@@ -10,7 +10,7 @@
 import { ref } from 'vue';
 
 export default {
-  name: 'SignupForm',
+  name: 'Login',
 
   setup() {
     const email = ref('');
